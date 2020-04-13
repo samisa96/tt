@@ -17,19 +17,16 @@ def bmi_toweight(bmi):
 
     elif bmi > 18.5 and bmi < 25:
         print('Your BMI is', bmi, 'which means you are normal.')
-        return "normal"
+        return "nnormal"
 
     elif bmi > 25 and bmi < 30:
         print('your BMI is', bmi, 'overweight.')
-        return "overweight"
+        return "ooverweight"
     elif bmi > 30:
         print('Your BMI is', bmi, 'which means you are obese.')
-        return "obese"
+        return "oobese"
     else:
         print('There is an error with your input')
         print('Please check you have entered whole numbers\n'
               'and decimals were asked.')
         return None
-
-
-
