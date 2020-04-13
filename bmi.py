@@ -19,10 +19,10 @@ def bmi_toweight(bmi):
         print('Your BMI is', bmi, 'which means you are normal.')
         return "nnormal"
 
-    elif bmi > 25 and bmi < 30:
+    elif bmi > 25 and bmi < 50:
         print('your BMI is', bmi, 'overweight.')
         return "ooverweight"
-    elif bmi > 30:
+    elif bmi > 50:
         print('Your BMI is', bmi, 'which means you are obese.')
         return "oobese"
     else:
